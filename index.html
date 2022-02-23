@@ -1,7 +1,16 @@
 <style>
+    :root{
+
+
+    --penguin-belly: pink;
+
+    }
+
+    body{
+        background-color:var(--penguin-belly,#c6faf1);
+    }
     .penguin {
-      --penguin-skin: gray;
-      --penguin-belly:white;
+      --penguin-skins: gray;
       --penguin-beak: orange;
       position: relative;
       margin: auto;
@@ -15,7 +24,7 @@
       top: 10%;
       left: 25%;
 
-      background: var(--penguin-skins, black);
+      background: var(--penguin-skins);
 
       width: 50%;
       height: 45%;
@@ -25,7 +34,7 @@
     .penguin-bottom {
       top: 40%;
       left: 23.5%;
-      background: var(--penguin-skins, black);
+      background: var(--penguin-skins);
       width: 53%;
       height: 45%;
       border-radius: 70% 70% 100% 100%;
@@ -34,7 +43,7 @@
     .right-hand {
       top: 0%;
       left: -5%;
-      background: var(--penguin-skins,black);
+      background: var(--penguin-skins);
       width: 30%;
       height: 60%;
       border-radius: 30% 30% 120% 30%;
@@ -45,7 +54,7 @@
     .left-hand {
       top: 0%;
       left: 75%;
-      background: var(--penguin-skins,black);
+      background: var(--penguin-skins);
       width: 30%;
       height: 60%;
       border-radius: 30% 30% 30% 120%;
